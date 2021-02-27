@@ -1,6 +1,13 @@
 name: R2S-OpenWrt
 
 on:
+  workflow_dispatch:
+    inputs:
+      reason:
+        description: 'Why should this action be triggered manually?'
+        required: false
+        default: 'No reason'
+
   schedule:
     - cron: 5 9 * * 6
   watch:
