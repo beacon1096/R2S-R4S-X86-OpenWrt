@@ -1,7 +1,5 @@
 ## R2S/R4S/X86 基于原生OpenWRT 的固件(AS IS, NO WARRANTY!!!)
-![R2S-OpenWrt](https://github.com/QiuSimons/R2S-R4S-X86-OpenWrt/workflows/R2S-OpenWrt/badge.svg)
-![R4S-OpenWrt](https://github.com/QiuSimons/R2S-R4S-X86-OpenWrt/workflows/R4S-OpenWrt/badge.svg)
-![X86-OpenWrt](https://github.com/QiuSimons/R2S-R4S-X86-OpenWrt/workflows/X86-OpenWrt/badge.svg)
+[![R2S-OpenWrt](https://github.com/beacon1096/R2S-OpenWrt/actions/workflows/R2S-OpenWrt.yml/badge.svg)](https://github.com/beacon1096/R2S-OpenWrt/actions/workflows/R2S-OpenWrt.yml)
 
 ### 请勿用于商业用途!!! 请勿用于商业用途!!! 请勿用于商业用途!!! 请勿用于商业用途!!! 请勿用于商业用途!!!
 
