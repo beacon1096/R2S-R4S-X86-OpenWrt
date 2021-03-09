@@ -275,6 +275,9 @@ svn co https://github.com/sundaqiang/openwrt-packages/trunk/luci-app-services-wo
 #Docker
 sed -i 's/+docker/+docker \\\n\t+dockerd/g' ./feeds/luci/applications/luci-app-dockerman/Makefile
 
+# Modify default IP
+sed -i 's/192.168.1.1/192.168.2.1/g' package/base-files/files/bin/config_generate
+
 ##最后的收尾工作
 #Lets Fuck
 mkdir package/base-files/files/usr/bin
